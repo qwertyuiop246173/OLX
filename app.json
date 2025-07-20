@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "OLX",
+    "scheme": "olx",
+    "slug": "OLX",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/OLX-v1b-small-RGB.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/OLX-v1b-small-RGB.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.kisan321.OLX"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c5cae861-38d8-499a-931d-c524942aa2e3"
+      }
+    },
+    "owner": "olx001"
+  }
+}
