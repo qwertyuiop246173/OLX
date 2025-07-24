@@ -5,11 +5,11 @@
     "slug": "OLX",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/OLX-v1b-small-RGB.png",
+    "icon": "./assets/images/OLX-v1b-small-RGB.png", // <-- app icon
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/images/OLX-v1b-small-RGB.png",
+      "image": "./assets/images/OLX-v1b-small-RGB.png", // <-- splash logo
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,11 +18,11 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/images/OLX-v1b-small-RGB.png", // <-- use your logo for adaptive icon
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.kisan321.OLX"
+      "package": "com.qwertyuiop246173.OLX"
     },
     "web": {
       "favicon": "./assets/favicon.png"
