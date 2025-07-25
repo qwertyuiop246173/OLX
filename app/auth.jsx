@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   overlay: {
-    ...StyleSheet.absoluteFillObject,   ///what use of this ???\
+    ...StyleSheet.absoluteFillObject,   ///what use of this ???
     backgroundColor: 'rgba(0,0,0,0.7)',
   },
   container: {
